@@ -1,0 +1,304 @@
+@media (max-width: 1024px) {
+  .video {
+    flex-direction: column;
+  }
+  iframe {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 1s;
+  }
+
+  .nav-link {
+    color: #3a4753;
+    transition: 1s;
+  }
+
+  .nav-link:hover {
+    color: #0ea2bd;
+  }
+
+  .nav-link:hover {
+    text-underline-offset: 2px;
+    text-decoration-thickness: 1px;
+  }
+
+  .navbar-toggler {
+    background-color: transparent !important;
+    color: #0ea2bd !important;
+    font-size: 30px !important;
+  }
+
+  .nav-link {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .dropdown-item {
+    text-align: center;
+  }
+
+  .nav-btn {
+    text-align: center;
+  }
+
+  .about-content h2 {
+    margin-top: 30px;
+  }
+  .logos img {
+    width: 45%;
+    margin: 18px 0;
+  }
+  .cta-flex {
+    flex-direction: column;
+  }
+  .cta img {
+    margin-top: 50px;
+    transform: rotate(-2deg);
+  }
+  .cta-container h2::after {
+    display: none;
+  }
+  .white-bg {
+    margin-top: 70px;
+    transform: rotate(2deg);
+  }
+  .video {
+    flex-direction: column;
+  }
+  iframe {
+    width: 100%;
+  }
+  .info-box {
+    margin: 20px 0;
+  }
+  .testimonials .item img {
+    width: 20%;
+  }
+
+  .pricing .card {
+    margin: 20px 0;
+  }
+  .faq .faq-bg {
+    padding: 150px 0;
+  }
+
+  .img-box-blog img {
+    margin-top: 20px !important;
+  }
+
+  .contact .col-lg-8 {
+    margin-top: 30px;
+  }
+  .contact .col-lg-8 input {
+    width: 100%;
+  }
+
+  .contact textarea {
+    height: 250px;
+  }
+  .copyright .copyright-flex-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .copyright .copy-left {
+    order: 1;
+    margin-top: 30px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 714px) {
+  .logos img {
+    width: 30%;
+    margin: 18px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 28px;
+  }
+  .banner p {
+    line-height: 1.6;
+    font-size: 15px;
+  }
+  .banner-btn {
+    padding: 8px 17px;
+  }
+  .banner-btn-2 {
+    font-weight: 400;
+  }
+  .bi-play-circle {
+    font-size: 24px;
+  }
+  .about-content h2 {
+    font-size: 24px;
+  }
+  .logos img {
+    width: 30%;
+    margin: 18px 0;
+  }
+  .cta-container h2 {
+    font-size: 30px;
+  }
+  .cta-btn {
+    padding: 10px 23px;
+  }
+  .cta-container {
+    padding: 50px;
+  }
+  .video-txt-bg h2 {
+    font-weight: 500;
+    font-size: 22px;
+  }
+  .info-box {
+    margin: 20px 0;
+  }
+  .services h2 {
+    font-size: 30px;
+  }
+  .services p {
+    font-size: 15px;
+  }
+  .service-content-box h3 {
+    font-size: 19px;
+  }
+  .service-content-box p {
+    font-size: 13px;
+  }
+  .testimonials .item img {
+    width: 30%;
+  }
+  .pricing .card-title {
+    font-size: 24px;
+  }
+  .pricing .card-subtitle {
+    font-size: 24px;
+  }
+  .pricing ul li {
+    font-size: 14px;
+  }
+  .pricing button {
+    padding: 10px 27px;
+  }
+  .team .bg-effect i {
+    padding: 10px;
+    font-size: 10px;
+  }
+  .team h4 {
+    padding-top: 12px;
+    font-size: 17px;
+  }
+  .team h5 {
+    padding-bottom: 12px;
+    font-size: 12px;
+  }
+
+  .img-box-blog img {
+    margin-top: 20px !important;
+  }
+  .contact-btn button {
+    padding: 10px 23px;
+  }
+
+  .faq .accordion h2 button {
+    font-size: 12px;
+  }
+  .faq .accordion .card-body {
+    font-size: 12px;
+  }
+  .copyright .copyright-flex-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .copyright .copy-left {
+    order: 1;
+    margin-top: 30px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 415px) {
+  .about-content span {
+    font-weight: 300;
+    color: #485664;
+    /* padding: 12px 0; */
+    font-size: 14px;
+    /* margin: 0 18px; */
+  }
+}
+
+@media (max-width: 360px) {
+  .about-content span {
+    font-weight: 300;
+    color: #485664;
+    /* padding: 12px 0; */
+    font-size: 14px;
+    margin: 0 10px;
+  }
+  .cta-container h2 {
+    font-size: 24px;
+  }
+  .cta-btn {
+    padding: 8px 18px;
+  }
+  .white-bg {
+    margin-top: 40px;
+  }
+  .copyright .copyright-flex-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .btn-content {
+    flex-direction: column;
+  }
+  .banner-btn-2 {
+    margin-top: 16px;
+  }
+  .about-content h2 {
+    font-size: 20px;
+  }
+  .about-content span {
+    font-weight: 300;
+    color: #485664;
+    /* padding: 12px 0; */
+    font-size: 11px;
+    margin: 0 10px;
+  }
+  .cta-container h2 {
+    font-size: 18px;
+  }
+  .cta-container p {
+    font-size: 15px;
+  }
+  .pricing ul li {
+    font-size: 10px;
+  }
+
+  .copyright p {
+    font-size: 10px;
+  }
+
+  .copyright p span {
+    font-size: 10px;
+  }
+
+  .copyright .copyright-flex-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
